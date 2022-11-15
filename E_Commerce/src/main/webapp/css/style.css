@@ -1,0 +1,101 @@
+.custom-bg
+{
+    background:#673ab7!important;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: #673AB7 !important;
+}
+.btn-primary:hover {
+    background-color: #2196f3 !important;
+}
+.btn-warning, .btn-warning:active, .btn-warning:visited{
+    background-color: #FFD5A5 !important;
+}
+.btn-warning:hover {
+    background-color: #2196f3 !important;
+}
+.admin .card{
+    border: 5px solid #673ab7 ;
+    border-radius: 35px 35px 35px 35px;
+    background: whitesmoke ;
+}
+
+.admin .card:hover{
+    background: #FED2A1;
+    cursor: pointer;
+}
+
+/*uchiha car start for product card*/
+
+.kakashi .uchiha .card {
+  margin-top: 2em;
+  padding: 1.5em 0.5em 0.5em;
+  border-radius: 2em;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.kakashi .uchiha .card img {
+  /*width: 65%;*/
+  border-radius: 10%;
+  /*margin: 0 auto;*/
+  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);*/
+}
+.kakashi .uchiha .card .card-title {
+  font-weight: 700;
+  /*font-size: 1.5em;*/
+}
+.kakashi .uchiha .card .btn {
+  border-radius: 2em;
+  background-color: teal;
+  color: #ffffff;
+/*  padding: 0.5em 1.5em;*/
+}
+.kakashi .uchiha .card .btn:hover {
+  background-color: rgba(0, 128, 128, 0.7);
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.kakashi .uchiha .card .delete_button .btn {
+  border-radius: 2em;
+  background-color: #e53935;
+  color: #ffffff;
+padding: .40rem 1.25rem;
+
+}
+.kakashi .uchiha .card .delete_button .btn:hover {
+  background-color: #b71c1c;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: .40rem 1.25rem;
+}
+.kakashi .uchiha .card .edit_button .btn {
+  border-radius: 2em;
+  background-color: #ab47bc;
+  color: #ffffff;
+/*  padding: 0.5em 1.5em;*/
+padding: .40rem 1.25rem;
+}
+.kakashi .uchiha .card .edit_button .btn:hover {
+  background-color: #0097a7;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: .40rem 1.25rem;
+}
+.product-card:hover{
+     background: #e2e2e2;
+    cursor: pointer;
+}
+
+.discount-label{
+    font-size: 12px!important;
+    font-style: italic!important;
+    color: black;
+    font-weight: bold;
+}
+.orig-price{
+    text-decoration: line-through 2px !important;
+    font-size: 13px;
+    
+}

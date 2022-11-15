@@ -1,0 +1,70 @@
+.kakashi .custom-bg{
+    background:#FFDFBC!important;
+}
+.kakashi .vertical-nav {
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+    
+}
+.kakashi .page-content {
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+}
+
+#sidebar.active {
+    margin-left: -17rem;
+}
+
+#content.active {
+    width: 100%;
+    margin: 0;
+}
+
+.separator {
+    margin: 3rem 0;
+    border-bottom: 1px dashed #fff;
+}
+
+.kakashi .text-uppercase {
+    letter-spacing: 0.1em;
+    
+}
+.kakashi .text-gray {
+    color: red;
+}
+.kakashi .nav-link{
+    text-transform: capitalize;
+    
+}
+.kakashi .nav-link:hover{
+    background:white!important;
+}
+.kakashi .text-primary{
+    color:#7579e7 !important;
+}
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -17rem;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #content {
+        width: 100%;
+        margin: 0;
+    }
+    #content.active {
+        margin-left: 17rem;
+        width: calc(100% - 17rem);
+    }
+}
+
+
+

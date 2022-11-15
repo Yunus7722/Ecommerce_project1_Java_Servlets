@@ -1,0 +1,11 @@
+com\practice\entities\Product.class
+com\practice\dao\UserDao.class
+com\practice\entities\Category.class
+com\practice\servlets\ProductOperationServlet.class
+com\practice\dao\ProductDao.class
+com\practice\dao\CategoryDao.class
+com\practice\helper\factoryProvider.class
+com\practice\servlets\LogoutServlet.class
+com\practice\servlets\LoginServlet.class
+com\practice\entities\User.class
+com\practice\servlets\RegisterServlet.class
